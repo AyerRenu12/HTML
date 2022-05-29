@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2 style="font-size: 40px; text-decoration: underline; ">Html form</h2>
+    <form>
+    <fieldset style="width:500px;">
+        <legend>Detail</legend>
+        <div style="padding-left: 40px; ">
+        <p>
+            <h2>Student information : </h2>
+            <label for="name">First name :</label> <br>
+            <input type="text" id="name" placeholder="Enter your first name" name="name" required><br>
+            <label for="name">Last name :</label> <br>
+            <input type="text" id="name" placeholder="Enter your last name"  name="name" required><br> 
+            <label for="email">Email :</label> <br>
+            <input type="email" id="email" placeholder="someone@gmail.com" name="email" required>
+            <h2>Choose your class: </h2>
+            <input type="radio" name="class" id="class" value="11">
+            <label for="class">Class 11</label><br>
+            <input type="radio" name="class" id="class" value="12">
+            <label for="class">Class 12</label><br>
+            
+            <h2>Choose your subject :</h2>
+        <input type="checkbox" name="subject" value="physics" id="subject">
+        <label for="Physics"> Physics</label>
+        <br>
+        <input type="checkbox" name="subject" value="Chemistry" id="subject">
+        <label for="Chemistry"> Chemistry</label>
+        <br>
+        <input type="checkbox" name="subject" value="Biology" id="subject">
+        <label for="Biology"> Biology</label>
+        <br>
+        <input type="checkbox" name="subject" value="Maths" id="subject">
+        <label for="Maths"> Maths</label>
+        <br>
+        <input type="checkbox" name="subject" value="Computer" id="subject">
+        <label for="Computer"> Computer</label> <br>
+        
+        <input type="checkbox" name="subject" value="English" id="subject">
+        <label for="English"> English</label> <br>
+        
+        <input type="checkbox" name="subject" value="Nepali" id="subject">
+        <label for="Nepali"> Nepali</label> <br>
+       
+        <h2> Give any message :</h2>
+         <textarea name="give some message" rows="5" cols="40">
+            Give any message :
+         </textarea>
+
+         <h2>DO you have any question?</h2>
+         <textarea name="any question?" rows="5" cols="40">
+             Any questions:
+         </textarea>
+         
+        
+        <br>
+        <br>
+        <input type="submit" style="color:azure; background-color: darkcyan; font-size: 25px;" value="submit">
+        
+    </p>
+    </div>
+</fieldset>
+</form>
+</body>
+</html>
